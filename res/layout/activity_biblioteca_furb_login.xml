@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:background="#ffffff">
+    
+    <Button android:id="@+id/button_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_login"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:onClick="onLogin" />
+    
+    <EditText android:id="@+id/edit_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="@string/edit_password"
+        android:layout_above="@id/button_login" /> 
+    
+    <EditText android:id="@+id/edit_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textNoSuggestions"
+        android:hint="@string/edit_username"
+        android:layout_above="@id/edit_password">
+        <requestFocus />
+    </EditText>
+        
+    <ImageView android:src="@drawable/logo_furb"
+        android:contentDescription="@string/logo_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:scaleType="center"
+        android:layout_above="@id/edit_username" />
+    
+</RelativeLayout>

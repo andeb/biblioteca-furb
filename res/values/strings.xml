@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">Biblioteca FURB</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_biblioteca_furb_login">Biblioteca FURB</string>
+    <string name="edit_username">Usuário</string>
+    <string name="edit_password">Senha</string>
+    <string name="button_login">Logar</string>
+    <string name="logo_description">FURB</string>
+    <string name="title_activity_lista_livros">Biblioteca FURB</string>
+    <string name="lista_livros_renovar">Renovar</string>
+
+</resources>
